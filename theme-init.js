@@ -7,5 +7,5 @@
   } catch (e) {}
   document.documentElement.setAttribute('data-theme', theme);
   var meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.setAttribute('content', theme === 'light' ? '#eef3fb' : '#060b1b');
+  if (meta) meta.setAttribute('content', theme === 'light' ? '#eef3fa' : '#070d1e');
 })();
